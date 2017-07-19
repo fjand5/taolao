@@ -2,5 +2,5 @@ var http = require("http");
  console.log("khoi dong xong");
  http.createServer(function(req,res){
  	console.log("xin chao");
-  console.log(req);
- }).listen(process.env.PORT || 80);
+  console.log(process.env.POR);
+ }).listen(process.env.PORT);
